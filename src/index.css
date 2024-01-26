@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* index.css */
+
+/* Apply some global styles to the entire body or HTML element */
+body {
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    background: linear-gradient(45deg, black, #1c2637); /* Set a background color for the entire app */
+    color: #333; /* Set a default text color */
+  }
+  
+  /* Apply styles to specific elements or classes */
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Poppins', 'Helvetica', 'Arial', sans-serif; /* Customize font for headings */
+    /* color: #1a202c; Set heading text color */
+  }
+  
+  /* Override default link styles */
+  a {
+    color: #4299e1; /* Set link color */
+    text-decoration: none; /* Remove default underline */
+  }
+  
+  a:hover {
+    text-decoration: underline; /* Add underline on hover */
+  }
+  
+  /* Customize the default button styles */
+
+  /* Additional global styles or customizations as needed */
+  
